@@ -105,10 +105,11 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  width: 100%;
-  height: 50px;
-  background-color: #3397DB;
+  display: flex;
   align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #3397DB;
 }
 .filter-options h2 {
   color: white;
