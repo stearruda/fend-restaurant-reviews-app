@@ -105,7 +105,8 @@ nav h1 a {
 }
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
-  display: flex;
+  padding: 10px 0 3px;
+  text-align: center;
   align-items: center;
   width: 100%;
   height: auto;
@@ -150,7 +151,8 @@ nav h1 a {
   min-height: 380px;
   padding: 0 30px 25px;
   text-align: left;
-  width: 270px;
+  min-width: 270px;
+  max-width: 33%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -277,4 +279,17 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+}
+
+/* ====================== Media Queries ====================== */
+
+@media (min-width: 458px) {
+  .filter-options {
+    text-align: left;
+  }
+
+  #restaurants-list li {
+    max-width: 33%;
+  }  
+
 }
