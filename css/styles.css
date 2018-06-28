@@ -172,6 +172,7 @@ nav h1 a {
   margin: 20px 0 10px;
   text-transform: uppercase;
   padding: 0 20px;
+  height: 50px;
 }
 #restaurants-list h1 + p {
   float: right;
@@ -191,7 +192,7 @@ nav h1 a {
   display: inline-block;
   font-size: 10pt;
   margin: 15px 0 0;
-  padding: 10px 35px 10px;
+  padding: 10px 42px 10px;
   text-align: center;
   text-decoration: none;
   text-transform: uppercase;
