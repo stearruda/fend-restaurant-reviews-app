@@ -308,7 +308,7 @@ nav h1 a {
   }
   .inside #map-container {
     background: blue none repeat scroll 0 0;
-    height: 87%;
+    height: 88%;
     position: fixed;
     right: 0;
     top: 80px;
@@ -320,9 +320,13 @@ nav h1 a {
   #restaurant-img {
     width: 90%;
   }
-  #restaurant-container, #reviews-container {
-    width: 50%;
+  #restaurant-container {
+    width: 45%;
     padding: 140px 40px 30px;
+  }
+  #reviews-container {
+    width: 45%;
+    padding: 40px 30px;
   }
   #restaurant-cuisine {
     width: 90%;
