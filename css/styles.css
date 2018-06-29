@@ -50,9 +50,10 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 }
 /* ====================== Navigation ====================== */
 nav {
+  display: flex;
   width: 100%;
   height: 80px;
-  background-color: #252831;
+  background-color: darkred;
   text-align:center;
 }
 nav h1 {
@@ -60,7 +61,7 @@ nav h1 {
 }
 nav h1 a {
   color: #fff;
-  font-size: calc(0.65em + 2vmin);
+  font-size: calc(0.45em + 2vmin);
   font-weight: 200;
   letter-spacing: 10px;
   text-transform: uppercase;
@@ -110,7 +111,7 @@ nav h1 a {
   align-items: center;
   width: 100%;
   height: auto;
-  background-color: #3397DB;
+  background-color: #252831;
 }
 .filter-options h2 {
   color: white;
@@ -153,8 +154,7 @@ nav h1 a {
   min-height: 380px;
   padding: 0 0 15px;
   text-align: left;
-  min-width: 270px;
-  max-width: 33%;
+  max-width: 85%;
 }
 #restaurants-list .restaurant-img {
   background-color: #ccc;
@@ -165,23 +165,16 @@ nav h1 a {
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: darkred;
   font-family: Arial,sans-serif;
-  font-size: 1.4em;
+  font-size: 1.3em;
   font-weight: 200;
   letter-spacing: 0;
   line-height: 1.3;
   margin: 20px 0 10px;
   text-transform: uppercase;
   padding: 0 20px;
-  height: 50px;
-  border-bottom: 1px solid;
-}
-#restaurants-list h1 + p {
-  font-size: 1em;
-  color: #3397DB;
-  width: 86%;
-  text-align: right;
+  height: 25px;
 }
 #restaurants-list p {
   font-size: 1.1em;
@@ -190,7 +183,7 @@ nav h1 a {
   width: 55%;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: darkred;
   border-bottom: 3px solid #eee;
   color: #fff;
   display: inline-block;
@@ -244,7 +237,7 @@ nav h1 a {
   margin: 10px 0px;
 }
 #restaurant-cuisine {
-  background-color: #3397DB;
+  background-color: #252831;
   color: #fff;
   font-size: 12pt;
   font-weight: 300;
@@ -299,12 +292,28 @@ nav h1 a {
   .filter-options {
     text-align: left;
   }
-  #restaurants-list li {
-    max-width: 33%;
-  }  
 }
 
-@media (min-width: 780px) {
+@media (min-width: 640px) and (max-width: 929px){
+  #restaurants-list li {
+    max-width: 42%;
+  }
+  #restaurants-list li h1 {
+    height: 35px;
+  }
+}
+
+@media (min-width: 930px) {
+  #restaurants-list li {
+    max-width: 30%;
+  }
+  #restaurants-list p {
+    width: 66%;
+  }  
+  #restaurants-list li h1 {
+    height: 41px;
+  }
+
   .inside header {
     position: fixed;
     top: 0;
