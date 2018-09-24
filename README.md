@@ -20,13 +20,13 @@ In this project, a static webpage that lacks accessibility is given to be conver
 
 In order to run the application you have some options:
 
-1. Open it [here](https://stearruda.github.io/restaurant-reviews-app-stage-1/)
+1. Open it [here](https://stearruda.github.io/fend-restaurant-reviews-app/)
 
 2. Run it localy
 * Download as .zip file or clone this project:
 
     ```
-    $ git clone https://github.com/stearruda/restaurant-reviews-app-stage-1.git
+    $ git clone https://github.com/stearruda/fend-restaurant-reviews-app.git
     ```
 
 * In this folder, start up a simple HTTP server to serve up the site files on your local computer. Python has some simple tools to do this, and you don't even need to know Python. For most people, it's already installed on your computer. 
